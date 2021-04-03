@@ -1,0 +1,20 @@
+{
+  "name": "@pengulets/metadata",
+  "version": "1.0.0",
+  "description": "",
+  "author": "Nejc Drobnic (https://quantumly.dev)",
+  "license": "BSD-3-Clause",
+  "private": true,
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Pengulets/metadata.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Pengulets/metadata/issues"
+  },
+  "homepage": "https://github.com/Pengulets/metadata#readme"
+}
