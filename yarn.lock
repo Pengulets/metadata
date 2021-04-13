@@ -100,6 +100,13 @@
     tslib "2.1.0"
     typescript "4.2.3"
 
+"@types/fastify-cors@^2.1.0":
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/@types/fastify-cors/-/fastify-cors-2.1.0.tgz#cf09d8f2726c23a6eca8149de26ab19f80bfcbb4"
+  integrity sha512-o01k3tVq/6kNDv2Q+STSHOsgRPD1jEL5kzhBp6RFu0VSHdyUW6WnOctuS1gC9mdlZyuldGR0Eo8vdkP8ZrPa8g==
+  dependencies:
+    fastify-cors "*"
+
 "@types/json-schema@^7.0.3":
   version "7.0.7"
   resolved "https://registry.yarnpkg.com/@types/json-schema/-/json-schema-7.0.7.tgz#98a993516c859eb0d5c4c8f098317a9ea68db9ad"
@@ -641,6 +648,14 @@ fast-safe-stringify@^2.0.7:
   version "2.0.7"
   resolved "https://registry.yarnpkg.com/fast-safe-stringify/-/fast-safe-stringify-2.0.7.tgz#124aa885899261f68aedb42a7c080de9da608743"
   integrity sha512-Utm6CdzT+6xsDk2m8S6uL8VHxNwI6Jub+e9NYTcAms28T84pTa25GJQV9j0CY0N1rM8hK4x6grpF2BQf+2qwVA==
+
+fastify-cors@*, fastify-cors@^5.2.0:
+  version "5.2.0"
+  resolved "https://registry.yarnpkg.com/fastify-cors/-/fastify-cors-5.2.0.tgz#a92af64d9b7df1cd736c90ecd894a7b23c0cd75a"
+  integrity sha512-Lde71qT23M3Ip3pmny3uN6q6lQ4J5J0/YWoqe2stL4sMT99R5LEtTJ2La2zijFOR5OFhxvxqGgR7BIc2x3amPg==
+  dependencies:
+    fastify-plugin "^3.0.0"
+    vary "^1.1.2"
 
 fastify-error@^0.3.0:
   version "0.3.0"
@@ -1494,6 +1509,11 @@ v8-compile-cache@^2.0.3:
   version "2.3.0"
   resolved "https://registry.yarnpkg.com/v8-compile-cache/-/v8-compile-cache-2.3.0.tgz#2de19618c66dc247dcfb6f99338035d8245a2cee"
   integrity sha512-l8lCEmLcLYZh4nbunNZvQCJc5pv7+RCwa8q/LdUx8u7lsWvPDKmpodJAJNwkAhJC//dFY48KuIEmjtd4RViDrA==
+
+vary@^1.1.2:
+  version "1.1.2"
+  resolved "https://registry.yarnpkg.com/vary/-/vary-1.1.2.tgz#2299f02c6ded30d4a5961b0b9f74524a18f634fc"
+  integrity sha1-IpnwLG3tMNSllhsLn3RSShj2NPw=
 
 which@^2.0.1:
   version "2.0.2"
